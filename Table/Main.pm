@@ -2,12 +2,9 @@ use MooseX::Declare;
 
 class Test::Table::Main extends Table::Main {
 
-
 #### EXTERNAL MODULES
 use Test::More;
 use Data::Dumper;
-
-
 
 method setUpTestDatabase () {
     #### LOAD DATABASE FROM SCRATCH
